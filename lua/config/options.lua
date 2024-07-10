@@ -35,7 +35,7 @@ vim.g.lazyvim_statuscolumn = {
 -- This sets `vim.o.shell` and does some additional configuration for:
 -- * pwsh
 -- * powershell
--- LazyVim.terminal.setup("pwsh")
+LazyVim.terminal.setup("nu")
 
 -- Hide deprecation warnings
 vim.g.deprecation_warnings = false
